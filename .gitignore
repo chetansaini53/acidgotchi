@@ -1,0 +1,15 @@
+# Arduino / PlatformIO / ESP-IDF build output
+build/
+.pio/
+managed_components/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.hex
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.bak
+.vscode/
