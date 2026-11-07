@@ -8,6 +8,11 @@ sdkconfig.old
 *.map
 *.hex
 
+# emotion sprites ARE committed (acidgotchi/emotions.h + acidgotchi/assets/*.gif);
+# regenerate them with tools/gen_emotions.py. Only legacy local experiments stay out:
+acidgotchi/ascii_cat.h
+acidgotchi/cat_img.h
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
